@@ -1,4 +1,6 @@
 .ticker {
+	opacity: 0;
+	transform: opacity 0.3s;
 	&__viewport {
 		overflow: hidden;
 	}
@@ -15,5 +17,9 @@
 			width: 350px;
 			object-fit: cover;
 		}
+	}
+
+	&--active {
+		opacity: 1;
 	}
 }

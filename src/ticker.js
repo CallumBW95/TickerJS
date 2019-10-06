@@ -33,7 +33,7 @@
 		init() {
 			this.duplicateSlides();
 			this.calcMovementDistance();
-			// this.hoverState();
+			this.options.el.classList.add("ticker--active");
 			this.toggleMovement();
 		}
 
@@ -47,7 +47,6 @@
 					if (slides.length === this.state.imagesLoaded) {
 						this.state.width = this.getSlidesWidth(slides);
 						this.init();
-						console.log(this);
 					}
 				});
 			});
@@ -107,14 +106,7 @@
 		}
 
 		updateState(key, value) {
-			// console.log(key, this.state[key], value);
 			if (this.state[key]) this.state[key] = value;
-			// console.log(this.state[key]);
-
-			// if (this.state[name] !== value) {
-			// 	return true;
-			// }
-			// return false;
 		}
 
 		toggleMovement() {

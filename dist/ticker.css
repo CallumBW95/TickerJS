@@ -1,13 +1,16 @@
-.ticker__viewport {
-  overflow: hidden; }
-
-.ticker__slides {
-  list-style: none;
-  display: flex;
-  padding: 0; }
-
-.ticker__slide img {
-  height: 200px;
-  width: 350px;
-  object-fit: cover; }
+.ticker {
+  opacity: 0;
+  transform: opacity 0.3s; }
+  .ticker__viewport {
+    overflow: hidden; }
+  .ticker__slides {
+    list-style: none;
+    display: flex;
+    padding: 0; }
+  .ticker__slide img {
+    height: 200px;
+    width: 350px;
+    object-fit: cover; }
+  .ticker--active {
+    opacity: 1; }
 
