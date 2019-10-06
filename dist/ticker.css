@@ -1,0 +1,11 @@
+.ticker__viewport {
+  overflow: hidden; }
+
+.ticker__slides {
+  list-style: none;
+  display: flex;
+  padding: 0; }
+
+.ticker__slide {
+  height: 200px; }
+

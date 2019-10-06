@@ -1,0 +1,15 @@
+.ticker {
+	&__viewport {
+		overflow: hidden;
+	}
+
+	&__slides {
+		list-style: none;
+		display: flex;
+		padding: 0;
+	}
+
+	&__slide {
+		height: 200px;
+	}
+}
