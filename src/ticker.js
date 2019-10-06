@@ -55,7 +55,7 @@
 
 		duplicateSlides() {
 			[...this.options.el.querySelectorAll(".ticker__slide")].map(el => {
-				this.options.el.querySelector(".ticker__slides").innerHTML += el.innerHTML;
+				this.options.el.querySelector(".ticker__slides").innerHTML += el.outerHTML;
 			});
 		}
 

@@ -6,6 +6,8 @@
   display: flex;
   padding: 0; }
 
-.ticker__slide {
-  height: 200px; }
+.ticker__slide img {
+  height: 200px;
+  width: 350px;
+  object-fit: cover; }
 

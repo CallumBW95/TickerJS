@@ -10,6 +10,10 @@
 	}
 
 	&__slide {
-		height: 200px;
+		img {
+			height: 200px;
+			width: 350px;
+			object-fit: cover;
+		}
 	}
 }
